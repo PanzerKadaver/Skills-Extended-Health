@@ -584,7 +584,6 @@
       "SILENCER_PRICE_RED_PER_LEVEL": 0.005
     },
     "Strength": {
-<<<<<<< HEAD
         "ENABLED": true,
         "COLLIDER_SPEED_BUFF_PER_LEVEL": 0.01,
         "BASE_ARMS_HP": 60,
@@ -609,7 +608,6 @@
         "BASE_HEAD_HP":  35,
         "HEAD_HP_PER_LEVEL": 0.02,
 		"HEAD_HP_ELITE": 0.2
-=======
       "ENABLED": true,
       "COLLIDER_SPEED_BUFF_PER_LEVEL": 0.01
     },
@@ -618,6 +616,5 @@
       "XP_PER_ACTION": 1,
       "SCAV_COOLDOWN_TIME_PER_LEVEL": 0.01,
       "CULTIST_CIRCLE_RETURN_TIME_PER_LEVEL": 0.01
->>>>>>> upstream/2.1.0
     }
 }

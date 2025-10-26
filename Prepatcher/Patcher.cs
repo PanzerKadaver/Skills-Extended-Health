@@ -281,7 +281,6 @@ public static class SkillsExtendedPatcher
         buffEnum.Fields.Add(strArmsHP);
     }
 
-<<<<<<< HEAD
     private static void EnduranceBuffs(AssemblyDefinition assembly, TypeDefinition buffEnum, ref int index)
     {
         var endLegsHP = CreateNewEnum(
@@ -318,7 +317,6 @@ public static class SkillsExtendedPatcher
         buffEnum.Fields.Add(hltHeadHP);
     }
 
-=======
     private static void ShadowConnectionsBuffs(AssemblyDefinition assembly, TypeDefinition buffEnum, ref int index)
     {
         var decScavCooldown = CreateNewEnum(
@@ -348,7 +346,6 @@ public static class SkillsExtendedPatcher
         buffEnum.Fields.Add(decCultistCircleReturn);
     }
     
->>>>>>> upstream/2.1.0
     private static void PatchSkillManager(ref AssemblyDefinition assembly)
     {
         var skillsExtendedModule = ModuleDefinition.ReadModule(PluginPath);

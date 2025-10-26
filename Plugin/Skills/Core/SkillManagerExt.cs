@@ -102,32 +102,10 @@ public class SkillManagerExt
         BuffType = SkillManager.EBuffType.Elite
     };
 
-<<<<<<< HEAD
     public readonly SkillManager.SkillBuffClass StrengthArmsHPBuff = new()
     {
         Id = EBuffId.StrengthArmsHPBuff
     };
-=======
-    public readonly SkillManager.SkillBuffClass ScavCooldownTimeReductionBuff = new()
-    {
-        Id = EBuffId.ScavCooldownTimeDec
-    };
-
-    public readonly SkillManager.SkillBuffClass CultistCircleReturnTimeReductionBuff = new()
-    {
-        Id = EBuffId.CultistCircleReturnTimeDec
-    };
-
-    public readonly SkillManager.GClass2257 ScavCooldownTimeReductionEliteBuff = new()
-    {
-        Id = EBuffId.ScavCooldownTimeElite,
-        BuffType = SkillManager.EBuffType.Elite
-    };
-
-    #endregion
-
-    #region ACTIONS
->>>>>>> upstream/2.1.0
 
 	public readonly SkillManager.SkillBuffClass EnduranceLegsHPBuff = new()
     {
@@ -143,6 +121,22 @@ public class SkillManagerExt
     {
         Id = EBuffId.HealthHeadHPBuff
     };
+
+	public readonly SkillManager.SkillBuffClass ScavCooldownTimeReductionBuff = new()
+	{
+		Id = EBuffId.ScavCooldownTimeDec
+	};
+
+	public readonly SkillManager.SkillBuffClass CultistCircleReturnTimeReductionBuff = new()
+	{
+		Id = EBuffId.CultistCircleReturnTimeDec
+	};
+
+	public readonly SkillManager.GClass2257 ScavCooldownTimeReductionEliteBuff = new()
+	{
+		Id = EBuffId.ScavCooldownTimeElite,
+		BuffType = SkillManager.EBuffType.Elite
+	};
 
 	#endregion
 

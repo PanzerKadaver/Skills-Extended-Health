@@ -15,16 +15,13 @@ public record SkillsConfig
     public required SilentOpsConfig SilentOps { get; set; }
     
     public required StrengthConfig Strength { get; set; }
-<<<<<<< HEAD
 
     public required EnduranceConfig Endurance { get; set; }
 
     public required VitalityConfig Vitality { get; set; }
 
     public required HealthConfig Health { get; set; }
-=======
     public required ShadowConnectionsConfig ShadowConnections { get; set; }
->>>>>>> upstream/2.1.0
 }
 
 public record BaseSubConfig
@@ -145,7 +142,6 @@ public record StrengthConfig
     
     [JsonPropertyName("COLLIDER_SPEED_BUFF_PER_LEVEL")]
     public required float ColliderSpeedBuff { get; set; }
-<<<<<<< HEAD
 
     [JsonPropertyName("BASE_ARMS_HP")]
     public required int BaseArmsHp { get; set; }
@@ -203,7 +199,6 @@ public record HealthConfig
 
     [JsonPropertyName("HEAD_HP_ELITE")]
     public required float HeadHpElite { get; set; }
-=======
 }
 
 public record ShadowConnectionsConfig : BaseSubConfig
@@ -213,5 +208,4 @@ public record ShadowConnectionsConfig : BaseSubConfig
     
     [JsonPropertyName("CULTIST_CIRCLE_RETURN_TIME_PER_LEVEL")]
     public required float CultistCircleReturnTimeDec { get; set; }
->>>>>>> upstream/2.1.0
 }
