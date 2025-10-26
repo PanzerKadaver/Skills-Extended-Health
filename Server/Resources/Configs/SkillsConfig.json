@@ -557,6 +557,16 @@
                 "trunk_Sandbox_roads_00032": 1,
                 "door_Sandbox_Area_01_indoor_00008": 1,
                 "door_Sandbox_Area_05_indoor_00002": 1
+            },
+            "Labyrinth": {
+                "door_Labyrinth_Area_Spawn_01_00003": 3,
+                "door_Labyrinth_Temp_Albert_00002": 3,
+                "door_Labyrinth_Area_03_00000": 3,
+                "door_Labyrinth_Area_02_00001": 3,
+                "door_Labyrinth_Area_06_00000": 3,
+                "door_Labyrinth_Area_06_00003": 3,
+                "door_Labyrinth_Area_06_00004": 3,
+                "door_Labyrinth_Area_06_00005": 3
             }
         }
     },
@@ -574,6 +584,7 @@
       "SILENCER_PRICE_RED_PER_LEVEL": 0.005
     },
     "Strength": {
+<<<<<<< HEAD
         "ENABLED": true,
         "COLLIDER_SPEED_BUFF_PER_LEVEL": 0.01,
         "BASE_ARMS_HP": 60,
@@ -598,5 +609,15 @@
         "BASE_HEAD_HP":  35,
         "HEAD_HP_PER_LEVEL": 0.02,
 		"HEAD_HP_ELITE": 0.2
+=======
+      "ENABLED": true,
+      "COLLIDER_SPEED_BUFF_PER_LEVEL": 0.01
+    },
+    "ShadowConnections": {
+      "ENABLED": true,
+      "XP_PER_ACTION": 1,
+      "SCAV_COOLDOWN_TIME_PER_LEVEL": 0.01,
+      "CULTIST_CIRCLE_RETURN_TIME_PER_LEVEL": 0.01
+>>>>>>> upstream/2.1.0
     }
 }

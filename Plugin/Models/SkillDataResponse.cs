@@ -28,6 +28,7 @@ public struct SkillDataResponse
 
     [JsonProperty("Strength")] 
     public StrengthData Strength;
+<<<<<<< HEAD
 
     [JsonProperty("Endurance")]
     public EnduranceData Endurance;
@@ -37,6 +38,11 @@ public struct SkillDataResponse
 
     [JsonProperty("Health")]
     public HealthData Health;
+=======
+    
+    [JsonProperty("ShadowConnections")]
+    public ShadowConnectionsData ShadowConnections;
+>>>>>>> upstream/2.1.0
 }
 
 public struct FirstAidData
@@ -161,6 +167,9 @@ public struct DoorPickLevels
     
     [JsonProperty("GroundZero")] 
     public Dictionary<string, int> GroundZero;
+    
+    [JsonProperty("Labyrinth")] 
+    public Dictionary<string, int> Labyrinth;
 }
 
 public struct ProneMovementData
@@ -203,6 +212,7 @@ public struct StrengthData
 
     [JsonProperty("COLLIDER_SPEED_BUFF_PER_LEVEL")] 
     public float ColliderSpeedBuff;
+<<<<<<< HEAD
 
     [JsonProperty("BASE_ARMS_HP")]
     public int BaseArmsHp;
@@ -260,4 +270,21 @@ public struct HealthData
 
     [JsonProperty("HEAD_HP_ELITE")]
     public float HeadHpElite;
+=======
+}
+
+public struct ShadowConnectionsData
+{
+    [JsonProperty("ENABLED")]
+    public bool Enabled;
+    
+    [JsonProperty("XP_PER_ACTION")]
+    public float XpPerAction;
+    
+    [JsonProperty("SCAV_COOLDOWN_TIME_PER_LEVEL")] 
+    public float ScavCooldownTimeReduction;
+    
+    [JsonProperty("CULTIST_CIRCLE_RETURN_TIME_PER_LEVEL")] 
+    public float CultistCircleReturnTimeReduction;
+>>>>>>> upstream/2.1.0
 }
